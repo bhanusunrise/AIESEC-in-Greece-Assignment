@@ -44,7 +44,11 @@ export default function NavBar() {
         if (entry.isIntersecting) {
           const activeSectionId = entry.target.id;
           setNavigation((prevNavigation) =>
-            prevNavigation.map((item) => (item.href === `#${activeSectionId}` ? { ...item, current: true } : { ...item, current: false }))
+            prevNavigation.map((item) =>
+              item.href === `#${activeSectionId}`
+                ? { ...item, current: true }
+                : { ...item, current: false }
+            )
           );
         }
       });
@@ -66,9 +70,7 @@ export default function NavBar() {
     if (currentSection?.name === 'Home') {
       return 'bg-transparent'; // Transparent background for Home
     }
-    if (
-      ['Explore', 'Opportunities', 'Culture'].includes(currentSection?.name || '')
-    ) {
+    if (['Explore', 'Opportunities', 'Culture'].includes(currentSection?.name || '')) {
       return 'bg-gray-800/90'; // Semi-transparent dark background for other sections
     }
     return 'bg-gray-900'; // Default dark background
@@ -78,16 +80,16 @@ export default function NavBar() {
     <Disclosure
       as="nav"
       className={classNames(
-        'navbar-custom',
+        'navbar-custom fixed top-0 w-full z-50', // Fixed positioning and full width
         getNavbarBgClass(),
         'text-gray-200 hover:bg-gray-900',
-        'transition-all duration-500 ease-in-out', // Adding transition for smooth background color change'
+        'transition-all duration-500 ease-in-out' // Adding transition for smooth background color change
       )}
     >
       <div className="mx-auto px-4 sm:px-6 lg:px-20 pt-1 pb-1">
         <div className="relative flex h-20 items-center justify-between">
           <div className="flex items-center">
-            <p className='text-2xl font-bold'>Australia</p>
+            <p className="text-2xl font-bold">Australia</p>
           </div>
           <div className="flex items-center sm:hidden">
             <DisclosureButton className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-600 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
