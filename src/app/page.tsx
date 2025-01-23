@@ -34,7 +34,7 @@ export default function Home() {
         <div className="flex flex-col justify-center">
           <p className="text-5xl font-semibold text-gray-800">About Us</p>
           <p className="text-lg text-gray-400 mt-10">
-            Discover Australia's beauty, opportunities, and rich multicultural heritage for travelers, investors, and international students.
+            Discover Australia&apos;s beauty, opportunities, and rich multicultural heritage for travelers, investors, and international students.
           </p>
           <center>
             <Button
@@ -78,14 +78,14 @@ export default function Home() {
             Cultural Diversity Awaits       
           </p>
           <p className="text-lg text-gray-400 mt-5">
-            Experience Australia's rich multicultural heritage and vibrant communities welcoming all.      
+            Experience Australia&apos;s rich multicultural heritage and vibrant communities welcoming all.      
           </p>
           <p className="text-xl font-bold text-gray-800 mt-10">
             <CurrencyDollarIcon className="h-6 w-6 inline mr-2"/>
             Investment Opportunities      
           </p>
           <p className="text-lg text-gray-400 mt-5">
-            Unlock potential in Australia’s thriving economy and diverse sectors for investors.       
+            Unlock potential in Australia&apos;s thriving economy and diverse sectors for investors.       
           </p>
         </div>
         
@@ -95,7 +95,7 @@ export default function Home() {
       <div className="text-center pb-40 pt-40 pl-10 pr-10 bg-white z-10">
         <p className="text-5xl font-semibold text-gray-800 text-center">Discover Australia</p>
         <p className="text-lg text-gray-400 mt-10">
-          Discover Australia's beauty, opportunities, and rich multicultural heritage for travelers, investors, and international students.
+          Discover Australia&apos;s beauty, opportunities, and rich multicultural heritage for travelers, investors, and international students.
         </p>
 
         <div className="columns-3 flex gap-4 mt-20">
@@ -116,7 +116,7 @@ export default function Home() {
 
       <div className="text-center pb-40 pl-10 pr-10 pt-40 z-10">
         <p className="text-5xl font-semibold text-white text-center">Why Choose Australia</p>
-        <p className="text-lg text-white mt-10">Discover Australia's beauty, opportunities, and multicultural charm for everyone.</p>
+        <p className="text-lg text-white mt-10">Discover Australia&apos;s beauty, opportunities, and multicultural charm for everyone.</p>
 <div className="grid grid-cols-3 gap-2 mt-20">
   <div className="p-4 bg-white/50 rounded-3xl hover:bg-white/80">
     <div className="flex">
@@ -146,7 +146,7 @@ export default function Home() {
     </div>
     <p className="text-lg text-gray-800 mt-5 font-semibold text-left">High Quality Education</p>
     <p className="text-md text-gray-600 mt-3 text-left">
-      Australia's rich culture and stunning landscapes truly captivated my heart and mind.
+      Australia&apos;s rich culture and stunning landscapes truly captivated my heart and mind.
     </p>
     <div className="flex mt-5">
       <FaceSmileIcon className="h-6 w-6 fill-orange-500 mr-2" />
