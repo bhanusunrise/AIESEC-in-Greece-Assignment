@@ -6,9 +6,10 @@ import { useEffect, useState } from 'react';
 
 const initialNavigation = [
   { name: 'Home', href: '#home', current: true },
-  { name: 'Explore', href: '#Explore', current: false },
-  { name: 'Opportunities', href: '#Opportunities', current: false },
-  { name: 'Culture', href: '#Culture', current: false },
+  { name: 'About Us', href: '#about', current: false },
+  { name: 'Explore', href: '#explore', current: false },
+  { name: 'Gallery', href: '#gallery', current: false },
+  { name: 'Reviews', href: '#reviews', current: false },
 ];
 
 function classNames(...classes: string[]) {
