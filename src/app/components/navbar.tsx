@@ -71,7 +71,10 @@ export default function NavBar() {
     if (currentSection?.name === 'Home') {
       return 'bg-transparent'; // Transparent background for Home
     }
-    if (['Explore', 'Opportunities', 'Culture'].includes(currentSection?.name || '')) {
+    if (currentSection?.name === 'Reviews') {
+      return 'bg-transparent'; // Transparent background for Home
+    }
+    if (['About Us', 'Explore', 'Gallery'].includes(currentSection?.name || '')) {
       return 'bg-gray-800/90'; // Semi-transparent dark background for other sections
     }
     return 'bg-gray-900'; // Default dark background

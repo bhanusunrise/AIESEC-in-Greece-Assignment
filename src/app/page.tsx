@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
     <NavBar/>
-    <div className="text-center min-h-screen flex flex-col justify-center items-center">
+    <div className="text-center min-h-screen flex flex-col justify-center items-center" id="home">
         <p className="text-7xl font-semibold text-white">Discover Australia&apos;s <br/> Opportunities and <br/> Beauty</p>
         <p className="text-lg mt-6 text-white">Explore our culture, education, and investment potential.</p>
         <div className="mt-10">
@@ -31,7 +31,7 @@ export default function Home() {
           </div>
       </div>
 
-      <div className="columns-3 text-center pb-40 pt-40 pl-10 pr-10 bg-white flex z-10">
+      <div className="columns-3 text-center pb-40 pt-40 pl-10 pr-10 bg-white flex z-10" id="about">
         <div className="flex flex-col justify-center">
           <p className="text-5xl font-semibold text-gray-800">About Us</p>
           <p className="text-lg text-gray-400 mt-10">
@@ -56,7 +56,7 @@ export default function Home() {
       </div>
 
 
-      <div className="text-center pb-40 pt-40 pl-10 pr-10 bg-green-100 z-10">
+      <div className="text-center pb-40 pt-40 pl-10 pr-10 bg-green-100 z-10" id="explore">
         <p className="text-5xl font-semibold text-gray-800">Explore Australia Today</p>
           <p className="text-lg text-gray-400 mt-10">
             Discover opportunities, beauty, and culture in Australia for travelers, investors, and students.          
@@ -93,7 +93,7 @@ export default function Home() {
       </div>
       </div>
 
-      <div className="text-center pb-40 pt-40 pl-10 pr-10 bg-white z-10">
+      <div className="text-center pb-40 pt-40 pl-10 pr-10 bg-white z-10" id="gallery">
         <p className="text-5xl font-semibold text-gray-800 text-center">Discover Australia</p>
         <p className="text-lg text-gray-400 mt-10">
           Discover Australia&apos;s beauty, opportunities, and rich multicultural heritage for travelers, investors, and international students.
@@ -115,7 +115,7 @@ export default function Home() {
 
       </div>
 
-      <div className="text-center pb-40 pl-10 pr-10 pt-40 z-10">
+      <div className="text-center pb-40 pl-10 pr-10 pt-40 z-10" id="reviews">
         <p className="text-5xl font-semibold text-white text-center">Why Choose Australia</p>
         <p className="text-lg text-white mt-10">Discover Australia&apos;s beauty, opportunities, and multicultural charm for everyone.</p>
 <div className="grid grid-cols-3 gap-2 mt-20">
