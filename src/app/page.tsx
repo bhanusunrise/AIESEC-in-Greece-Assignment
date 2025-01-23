@@ -2,6 +2,7 @@ import Image from "next/image";
 import Button from "./components/button";
 import NavBar from "./components/navbar";
 import { AcademicCapIcon, CurrencyDollarIcon, FaceSmileIcon, MusicalNoteIcon, StarIcon } from "@heroicons/react/24/outline";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -174,6 +175,10 @@ export default function Home() {
 </div>
 
       </div>
+
+      <Footer/>
+
+
 
       
     </>
