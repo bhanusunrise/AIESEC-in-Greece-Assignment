@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Button from "./components/button";
 import NavBar from "./components/navbar";
-import { AcademicCapIcon, CurrencyDollarIcon, MusicalNoteIcon } from "@heroicons/react/24/outline";
+import { AcademicCapIcon, CurrencyDollarIcon, FaceSmileIcon, MusicalNoteIcon, StarIcon } from "@heroicons/react/24/outline";
 
 export default function Home() {
   return (
@@ -90,6 +90,89 @@ export default function Home() {
         </div>
         
       </div>
+      </div>
+
+      <div className="text-center pb-40 pt-40 pl-10 pr-10 bg-white z-10">
+        <p className="text-5xl font-semibold text-gray-800 text-center">Discover Australia</p>
+        <p className="text-lg text-gray-400 mt-10">
+          Discover Australia's beauty, opportunities, and rich multicultural heritage for travelers, investors, and international students.
+        </p>
+
+        <div className="columns-3 flex gap-4 mt-20">
+          <div className="column p-4">
+            <Image src="/bridge.jpg" alt="Bridge" width={500} height={500} className="rounded-3xl hover:opacity-80"/>
+          </div>
+          <div className="column p-4">
+            <Image src="/bg.jpg" alt="Bridge" width={500} height={500} className="rounded-3xl hover:opacity-80"/>
+            <Image src="/beach.jpg" alt="Bridge" width={500} height={500} className="rounded-3xl hover:opacity-80 mt-8"/>
+          </div>
+          <div className="column p-4">
+            <Image src="/kola.jpg" alt="Bridge" width={500} height={500} className="rounded-3xl hover:opacity-80"/>
+            <Image src="/bg.jpg" alt="Bridge" width={500} height={500} className="rounded-3xl hover:opacity-80 mt-8"/>
+          </div>
+      </div>
+
+      </div>
+
+      <div className="text-center pb-40 pl-10 pr-10 pt-40 z-10">
+        <p className="text-5xl font-semibold text-white text-center">Why Choose Australia</p>
+        <p className="text-lg text-white mt-10">Discover Australia's beauty, opportunities, and multicultural charm for everyone.</p>
+<div className="grid grid-cols-3 gap-2 mt-20">
+  <div className="p-4 bg-white/50 rounded-3xl hover:bg-white/80">
+    <div className="flex">
+      <StarIcon className="h-6 w-6 fill-yellow-500 mr-2" />
+      <StarIcon className="h-6 w-6 fill-yellow-500 mr-2" />
+      <StarIcon className="h-6 w-6 fill-yellow-500 mr-2" />
+      <StarIcon className="h-6 w-6 fill-yellow-500 mr-2" />
+      <StarIcon className="h-6 w-6 fill-yellow-500 mr-2" />
+    </div>
+    <p className="text-lg text-gray-800 mt-5 font-semibold text-left">High Quality Education</p>
+    <p className="text-md text-gray-600 mt-3 text-left">
+      As an international student, I found endless opportunities and a welcoming environment in Australia that fostered my growth and learning.
+    </p>
+    <div className="flex mt-5">
+      <FaceSmileIcon className="h-6 w-6 fill-orange-500 mr-2" />
+      <p className="text-lg text-gray-800 font-semibold text-left">Michael Lee</p>
+    </div>
+  </div>
+
+  <div className="p-4 bg-white/50 rounded-3xl hover:bg-white/80">
+    <div className="flex">
+      <StarIcon className="h-6 w-6 fill-yellow-500 mr-2" />
+      <StarIcon className="h-6 w-6 fill-yellow-500 mr-2" />
+      <StarIcon className="h-6 w-6 fill-yellow-500 mr-2" />
+      <StarIcon className="h-6 w-6 fill-yellow-500 mr-2" />
+      <StarIcon className="h-6 w-6 fill-yellow-500 mr-2" />
+    </div>
+    <p className="text-lg text-gray-800 mt-5 font-semibold text-left">High Quality Education</p>
+    <p className="text-md text-gray-600 mt-3 text-left">
+      Australia's rich culture and stunning landscapes truly captivated my heart and mind.
+    </p>
+    <div className="flex mt-5">
+      <FaceSmileIcon className="h-6 w-6 fill-orange-500 mr-2" />
+      <p className="text-lg text-gray-800 font-semibold text-left">Emily Johnson</p>
+    </div>
+  </div>
+
+  <div className="p-4 bg-white/50 rounded-3xl hover:bg-white/80">
+    <div className="flex">
+      <StarIcon className="h-6 w-6 fill-yellow-500 mr-2" />
+      <StarIcon className="h-6 w-6 fill-yellow-500 mr-2" />
+      <StarIcon className="h-6 w-6 fill-yellow-500 mr-2" />
+      <StarIcon className="h-6 w-6 fill-yellow-500 mr-2" />
+      <StarIcon className="h-6 w-6 fill-yellow-500 mr-2" />
+    </div>
+    <p className="text-lg text-gray-800 mt-5 font-semibold text-left">High Quality Education</p>
+    <p className="text-md text-gray-600 mt-3 text-left">
+      As an international student, I found endless opportunities and a welcoming environment in Australia that fostered my growth and learning.
+    </p>
+    <div className="flex mt-5">
+      <FaceSmileIcon className="h-6 w-6 fill-orange-500 mr-2" />
+      <p className="text-lg text-gray-800 font-semibold text-left">Michael Lee</p>
+    </div>
+  </div>
+</div>
+
       </div>
 
       
