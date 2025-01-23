@@ -6,8 +6,9 @@ body {
   background-image: url('/bg.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed; /* Makes the background fixed */
   position: relative;
-  repeat: no-repeat;
+  background-repeat: no-repeat; /* Corrected the syntax for no-repeat */
 }
 
 body::before {
@@ -17,3 +18,4 @@ body::before {
   background-color: rgba(0, 0, 0, 0.7); /* Adjust the transparency */
   z-index: -1;
 }
+
